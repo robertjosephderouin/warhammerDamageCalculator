@@ -1,11 +1,16 @@
 import './App.css';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div >
-      <h1>Hi</h1>
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super();
+  }
+
+  render() {
+    return (
+      <h1>Warhammer Damage Calcuator</h1>
+    )
+  }
 }
 
 export default App;
